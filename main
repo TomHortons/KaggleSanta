@@ -37,9 +37,10 @@ def path_opt_test(llo):
     f_ = d_ * 10
     return f_
 
-gifts = pd.read_csv("../input/gifts.csv").fillna(" ")
+gifts = pd.read_csv("./input/gifts.csv").fillna(" ")
 c = sqlite3.connect(":memory:")
 cu = c.cursor()
+gifts.to_sql("gifts", c)
 cu.execute("ALTER TABLE gifts ADD COLUMN 'TripID' INT;")
 cu.execute("ALTER TABLE gifts ADD COLUMN 'i' INT;")
 cu.execute("ALTER TABLE gifts ADD COLUMN 'j' INT;")
@@ -54,7 +55,7 @@ for n in [1.25252525]:
         for j in range(180, -180, int(-360/n)):
             j_ += 1
             c.cursor()
-            cu.execute("UPDATE gifts SET i=" + str(i_) + ", j=" + str(j_) + "WHERE ((Latitude BETWEEN " + str(i-180/n) + " AND " + str(i) + ") AND (Longitude BETWEEN " + str(j-360/n) + " AND " + str(j) + "));")
+            cu.execute("UPDATE gifts SET i=" + str(i_) + ", j=" + str(j_) + " WHERE ((Latitude BETWEEN " + str(i-180/n) + " AND " + str(i) + ") AND (Longitude BETWEEN " + str(j-360/n) + " AND " + str(j) + "));")
             c.commit()
 
     for limit_ in [67]:
