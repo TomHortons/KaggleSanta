@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="828c6711-b484-4782-9033-617761d8340c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/santa/main" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/PycharmProjects/santa/main" afterPath="$USER_HOME$/PycharmProjects/santa/main" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/PycharmProjects/santa/.idea/workspace.xml" afterPath="$USER_HOME$/PycharmProjects/santa/.idea/workspace.xml" />
     </list>
     <ignored path="untitled3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +28,33 @@
       <file leaf-file-name="main" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/PycharmProjects/santa/main">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6328125">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.020689655">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#97#111#0" expanded="true" />
+                <marker date="1451208398000" expanded="true" signature="1147:1175" placeholder="ALTER TABLE gitfs..." />
+                <marker date="1451208398000" expanded="true" signature="1147:1188" placeholder="ALTER TABLE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1204:1240" placeholder="ALTER TABLE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1256:1292" placeholder="ALTER TABLE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1559" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1578" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1617" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1618" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1638" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1642" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1643" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1673" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1674" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1682" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1698" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1700" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1706" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1707" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1540:1723" placeholder="UPDATE gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1803:1900" placeholder="SELECT * FRO..*..." />
+                <marker date="1451208398000" expanded="true" signature="1803:1943" placeholder="SELECT * FRO..*..." />
+                <marker date="1451208398000" expanded="true" signature="1818:1899" placeholder="SELECT * FRO..gifts..." />
+                <marker date="1451208398000" expanded="true" signature="1818:1900" placeholder="SELECT * FRO..gifts..." />
               </folding>
             </state>
           </provider>
@@ -56,10 +80,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="23" />
-    <option name="width" value="1256" />
-    <option name="height" value="737" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -105,6 +127,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/santa" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -304,7 +327,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1256" height="737" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -312,7 +335,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2453125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -338,10 +361,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/PycharmProjects/santa/main">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6328125">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.020689655">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#97#111#0" expanded="true" />
+            <marker date="1451208398000" expanded="true" signature="1147:1175" placeholder="ALTER TABLE gitfs..." />
+            <marker date="1451208398000" expanded="true" signature="1147:1188" placeholder="ALTER TABLE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1204:1240" placeholder="ALTER TABLE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1256:1292" placeholder="ALTER TABLE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1559" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1578" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1617" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1618" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1638" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1642" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1643" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1673" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1674" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1682" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1698" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1700" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1706" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1707" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1540:1723" placeholder="UPDATE gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1803:1900" placeholder="SELECT * FRO..*..." />
+            <marker date="1451208398000" expanded="true" signature="1803:1943" placeholder="SELECT * FRO..*..." />
+            <marker date="1451208398000" expanded="true" signature="1818:1899" placeholder="SELECT * FRO..gifts..." />
+            <marker date="1451208398000" expanded="true" signature="1818:1900" placeholder="SELECT * FRO..gifts..." />
           </folding>
         </state>
       </provider>

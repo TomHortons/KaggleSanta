@@ -1,3 +1,5 @@
+# source https://www.kaggle.com/the1owl/santas-stolen-sleigh/you-ll-shoot-your-eye-out-kid/code
+
 import sqlite3
 import pandas as pd
 from haversine import haversine
@@ -25,4 +27,35 @@ def bb_sort(ll):
 
 def path_opt_test(llo):
     f_ = 0.0
-    
+    d_ = 0.0
+    l_ = north_pole
+    for i in range(len(north_pole)):
+        d_ += haversine(l_, llo[i][1])
+        f_ += d_ * llo[i][2]
+        l_ = llo[i][1]
+    d_ = haversine(l_, north_pole)
+    f_ = d_ * 10
+    return f_
+
+gifts = pd.read_csv("../input/gifts.csv").fillna(" ")
+c = sqlite3.connect(":memory:")
+cu = c.cursor()
+cu.execute("ALTER TABLE gifts ADD COLUMN 'TripID' INT;")
+cu.execute("ALTER TABLE gifts ADD COLUMN 'i' INT;")
+cu.execute("ALTER TABLE gifts ADD COLUMN 'j' INT;")
+c.commit()
+
+for n in [1.25252525]:
+    i_ = 0
+    j_ = 0
+    for i in range(90, -90, int(-180/n)):
+        i_ += 1
+        j = 0
+        for j in range(180, -180, int(-360/n)):
+            j_ += 1
+            c.cursor()
+            cu.execute("UPDATE gifts SET i=" + str(i_) + ", j=" + str(j_) + "WHERE ((Latitude BETWEEN " + str(i-180/n) + " AND " + str(i) + ") AND (Longitude BETWEEN " + str(j-360/n) + " AND " + str(j) + "));")
+            c.commit()
+
+    for limit_ in [67]:
+        trip = pd.read_sql("SELECT * FROM (SELECT * FROM gifts WHERE TripId IS NULL ORDER BY i, j, Longitude, Latitude LIMIT " + str(limit_) + ") ORDER BY Latitude DESC", c)
