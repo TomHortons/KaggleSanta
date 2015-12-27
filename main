@@ -60,3 +60,23 @@ for n in [1.25252525]:
 
     for limit_ in [67]:
         trip = pd.read_sql("SELECT * FROM (SELECT * FROM gifts WHERE TripId IS NULL ORDER BY i, j, Longitude, Latitude LIMIT " + str(limit_) + ") ORDER BY Latitude DESC", c)
+        t_ = 0
+        while len(trip.GiftId) > 0:
+            g = []
+            t += 1
+            w_ = 0.0
+            for i in range(len(trip.GiftId)):
+                if (w_ + float(trip.Weight[i])) <= weight_limit:
+                    w_ += float(trip.Weight[i])
+                    g.append(trip.GiftId[i])
+            cu = c.cursor()
+            cu.execute("UPDATE gifts SET TripId = " + str(t_) + " WHERE GiftId IN(" + (",").join(map(str, g)) + ");")
+            c.commit()
+
+        trip = pd.read_sql("SELECT * FROM (SELECT * FROM gifts WHERE TripId IS NULL ORDER BY i, j, Longitude, Latitude LIMIT " + str(limit_) + ") ORDER BY Latitude DESC", c)
+        #break
+
+    ou_ = open("submission_opt" + str(limit_) + ".csv", "w")
+    ou_.write("TripId,GiftIn\n")
+    bm = 0.0
+    submission = pd.read_sql()

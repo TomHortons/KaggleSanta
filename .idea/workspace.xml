@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="828c6711-b484-4782-9033-617761d8340c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main" afterPath="$PROJECT_DIR$/main" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled3.iws" />
@@ -31,33 +32,40 @@
       <file leaf-file-name="main" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6308725">
-              <caret line="57" column="78" selection-start-line="57" selection-start-column="78" selection-end-line="57" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.86577183">
+              <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
               <folding>
                 <element signature="e#97#111#0" expanded="true" />
-                <marker date="1451221511000" expanded="true" signature="1171:1199" placeholder="ALTER TABLE gitfs..." />
-                <marker date="1451221511000" expanded="true" signature="1171:1212" placeholder="ALTER TABLE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1228:1264" placeholder="ALTER TABLE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1280:1316" placeholder="ALTER TABLE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1583" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1602" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1642" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1643" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1663" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1667" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1668" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1698" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1699" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1707" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1723" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1725" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1731" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1732" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1564:1748" placeholder="UPDATE gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1828:1925" placeholder="SELECT * FRO..*..." />
-                <marker date="1451221511000" expanded="true" signature="1828:1968" placeholder="SELECT * FRO..*..." />
-                <marker date="1451221511000" expanded="true" signature="1843:1924" placeholder="SELECT * FRO..gifts..." />
-                <marker date="1451221511000" expanded="true" signature="1843:1925" placeholder="SELECT * FRO..gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1171:1199" placeholder="ALTER TABLE gitfs..." />
+                <marker date="1451232473000" expanded="true" signature="1171:1212" placeholder="ALTER TABLE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1228:1264" placeholder="ALTER TABLE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1280:1316" placeholder="ALTER TABLE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1583" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1602" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1642" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1643" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1663" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1667" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1668" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1698" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1699" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1707" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1723" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1725" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1731" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1732" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1564:1748" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1828:1925" placeholder="SELECT * FRO..*..." />
+                <marker date="1451232473000" expanded="true" signature="1828:1968" placeholder="SELECT * FRO..*..." />
+                <marker date="1451232473000" expanded="true" signature="1843:1924" placeholder="SELECT * FRO..gifts..." />
+                <marker date="1451232473000" expanded="true" signature="1843:1925" placeholder="SELECT * FRO..gifts..." />
+                <marker date="1451232473000" expanded="true" signature="2340:2365" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="2340:2366" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="2340:2381" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="2340:2398" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="2340:2430" placeholder="UPDATE gifts..." />
+                <marker date="1451232473000" expanded="true" signature="2486:2626" placeholder="SELECT * FRO..*..." />
+                <marker date="1451232473000" expanded="true" signature="2501:2583" placeholder="SELECT * FRO..gifts..." />
               </folding>
             </state>
           </provider>
@@ -419,7 +427,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451221544596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add gifts&#10;">
+      <created>1451221590066</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1451221590066</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -491,33 +505,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6308725">
-          <caret line="57" column="78" selection-start-line="57" selection-start-column="78" selection-end-line="57" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.86577183">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
           <folding>
             <element signature="e#97#111#0" expanded="true" />
-            <marker date="1451221511000" expanded="true" signature="1171:1199" placeholder="ALTER TABLE gitfs..." />
-            <marker date="1451221511000" expanded="true" signature="1171:1212" placeholder="ALTER TABLE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1228:1264" placeholder="ALTER TABLE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1280:1316" placeholder="ALTER TABLE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1583" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1602" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1642" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1643" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1663" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1667" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1668" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1698" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1699" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1707" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1723" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1725" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1731" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1732" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1564:1748" placeholder="UPDATE gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1828:1925" placeholder="SELECT * FRO..*..." />
-            <marker date="1451221511000" expanded="true" signature="1828:1968" placeholder="SELECT * FRO..*..." />
-            <marker date="1451221511000" expanded="true" signature="1843:1924" placeholder="SELECT * FRO..gifts..." />
-            <marker date="1451221511000" expanded="true" signature="1843:1925" placeholder="SELECT * FRO..gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1171:1199" placeholder="ALTER TABLE gitfs..." />
+            <marker date="1451232473000" expanded="true" signature="1171:1212" placeholder="ALTER TABLE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1228:1264" placeholder="ALTER TABLE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1280:1316" placeholder="ALTER TABLE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1583" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1602" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1642" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1643" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1663" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1667" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1668" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1698" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1699" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1707" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1723" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1725" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1731" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1732" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1564:1748" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1828:1925" placeholder="SELECT * FRO..*..." />
+            <marker date="1451232473000" expanded="true" signature="1828:1968" placeholder="SELECT * FRO..*..." />
+            <marker date="1451232473000" expanded="true" signature="1843:1924" placeholder="SELECT * FRO..gifts..." />
+            <marker date="1451232473000" expanded="true" signature="1843:1925" placeholder="SELECT * FRO..gifts..." />
+            <marker date="1451232473000" expanded="true" signature="2340:2365" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="2340:2366" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="2340:2381" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="2340:2398" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="2340:2430" placeholder="UPDATE gifts..." />
+            <marker date="1451232473000" expanded="true" signature="2486:2626" placeholder="SELECT * FRO..*..." />
+            <marker date="1451232473000" expanded="true" signature="2501:2583" placeholder="SELECT * FRO..gifts..." />
           </folding>
         </state>
       </provider>
