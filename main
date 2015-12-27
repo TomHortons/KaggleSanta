@@ -1,0 +1,28 @@
+import sqlite3
+import pandas as pd
+from haversine import haversine
+
+north_pole = (90, 0)
+weight_limit = 1000.0
+
+def bb_sort(ll):
+    s_limit = 5000
+    optimal = False
+    ll = [[0, north_pole, 10] + ll[:] + [0, north_pole, 10]]
+    while not optimal:
+        optimal = True
+        for i in range(1, len(ll) - 2):
+            lcopy = ll[:]
+            lcopy[i], lcopy[i+1] = ll[i+1][:], ll[i][:]
+            if path_opt_test(ll[1:-1]) < path_opt_test(lcopy[1:-1]):
+                ll = lcopy[:]
+                optimal = False
+                s_limit -= 1
+                if s_limit < 0:
+                    optimal = True
+                    break
+    return ll[1:-1]
+
+def path_opt_test(llo):
+    f_ = 0.0
+    
